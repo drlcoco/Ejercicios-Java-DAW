@@ -1,0 +1,22 @@
+CREATE DATABASE tienda;
+
+USE tienda;
+
+CREATE TABLE categoria (
+  ID varchar(5) NOT NULL,
+  nombre VARCHAR(30) default NULL,
+  descrip VARCHAR(100) default NULL,
+  PRIMARY KEY  (ID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+SHOW tables;
+
+DESC categoria; 
+
+INSERT INTO categoria    
+VALUES  ('00001','Monitor','Incluye cualquier tipo de monitores, CRT, de plasma, etc'),
+ ('00002','Ordenador','Lugar donde se colocan el resto de componentes internos, como la RAM, HD, etc'),
+ ('00003','Teclado','Teclados de diferentes tipos: inal�mbricos, USB, PS-2,...'),
+ ('00004','Rat�n','Ratones de diferentes tipos: inal�mbricos, Bluetooth, USB, PS-2,...');
+ 
+SELECT * FROM categoria;

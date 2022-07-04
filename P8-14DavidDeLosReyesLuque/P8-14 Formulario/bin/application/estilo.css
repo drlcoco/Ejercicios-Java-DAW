@@ -1,0 +1,18 @@
+
+.root{
+	-fx-background-color: red;
+}
+
+#identificacio{
+	-fx-font-size: 15pt;
+}
+
+#entrar{
+	-fx-border-color: rgb(49,89,23);
+	-fx-text-fill: blue;
+}
+
+#resultat{
+	-fx-text-fill: green;
+}
+
